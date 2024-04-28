@@ -27,7 +27,7 @@
   "dependencies": {
     "@keplr-wallet/chain-validator": "0.12.42",
     "@keplr-wallet/common": "0.12.42",
-    "@keplr-wallet/cosmos": "0.12.42",
+    "@keplr-wallet/cosmos": "0.12.77",
     "@keplr-wallet/types": "0.12.42",
     "axios": "^0.27.2",
     "cors": "^2.8.5",
