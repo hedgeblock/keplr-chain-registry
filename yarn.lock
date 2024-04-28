@@ -613,6 +613,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/common@npm:0.12.77":
+  version: 0.12.77
+  resolution: "@keplr-wallet/common@npm:0.12.77"
+  dependencies:
+    "@keplr-wallet/crypto": 0.12.77
+    "@keplr-wallet/types": 0.12.77
+    buffer: ^6.0.3
+    delay: ^4.4.0
+    mobx: ^6.1.7
+  checksum: 64ab9302d12d50cbad452e76c039a209e0838e46948fb56d859cf849e70f94c31da085490e9b5eefff977a185b76e0f374b1b0116310fc4cd129794c0c08b5c2
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/cosmos@npm:0.12.42":
   version: 0.12.42
   resolution: "@keplr-wallet/cosmos@npm:0.12.42"
@@ -632,6 +645,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/cosmos@npm:0.12.77":
+  version: 0.12.77
+  resolution: "@keplr-wallet/cosmos@npm:0.12.77"
+  dependencies:
+    "@ethersproject/address": ^5.6.0
+    "@keplr-wallet/common": 0.12.77
+    "@keplr-wallet/crypto": 0.12.77
+    "@keplr-wallet/proto-types": 0.12.77
+    "@keplr-wallet/simple-fetch": 0.12.77
+    "@keplr-wallet/types": 0.12.77
+    "@keplr-wallet/unit": 0.12.77
+    bech32: ^1.1.4
+    buffer: ^6.0.3
+    long: ^4.0.0
+    protobufjs: ^6.11.2
+  checksum: 139aa5dfecef568961387b583591b7270e93f2e670a75ffdaa480f453107aac06298e5d48dfb263ec0fd43bfabf667833fde3aa4ef9f56ffca97068bc1954065
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/crypto@npm:0.12.42":
   version: 0.12.42
   resolution: "@keplr-wallet/crypto@npm:0.12.42"
@@ -648,6 +680,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/crypto@npm:0.12.77":
+  version: 0.12.77
+  resolution: "@keplr-wallet/crypto@npm:0.12.77"
+  dependencies:
+    "@ethersproject/keccak256": ^5.5.0
+    bip32: ^2.0.6
+    bip39: ^3.0.3
+    bs58check: ^2.1.2
+    buffer: ^6.0.3
+    crypto-js: ^4.0.0
+    elliptic: ^6.5.3
+    sha.js: ^2.4.11
+  checksum: 3f78de694640f8d0a7f8305801a7cf96ba3b0a90fb70ede5da5b4a6f0bca07e56482fbf5c194c17ec2dd1a123ce56f81c50c032f9c578c6f1f068aa7b01507ca
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/proto-types@npm:0.12.42":
   version: 0.12.42
   resolution: "@keplr-wallet/proto-types@npm:0.12.42"
@@ -658,10 +706,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/proto-types@npm:0.12.77":
+  version: 0.12.77
+  resolution: "@keplr-wallet/proto-types@npm:0.12.77"
+  dependencies:
+    long: ^4.0.0
+    protobufjs: ^6.11.2
+  checksum: d682f1991e785f12340b0ff12396e122a412f1d61cc49b11410174a6160b111bed6f3f819fe3a44e99e423160c254a4200d57a1df9c57b76de8451fe15e61547
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/simple-fetch@npm:0.12.42":
   version: 0.12.42
   resolution: "@keplr-wallet/simple-fetch@npm:0.12.42"
   checksum: 06a9ef40517aed87bd48fd4600885c9a472a6cb0f278c3f4f53ef7b7cf92dad0fbb313cef46c7fe7caebc625db1853a76a54d205e7bd9d283912408209aa9024
+  languageName: node
+  linkType: hard
+
+"@keplr-wallet/simple-fetch@npm:0.12.77":
+  version: 0.12.77
+  resolution: "@keplr-wallet/simple-fetch@npm:0.12.77"
+  checksum: 21d480ca1f3fbdd4f8b6c9d90cd13a1561c92f9f7ccf3950e84a781edd64dc8362334bb23256848c9deea5f208c3dc5bd0738d5973c3f2fe355d67a79b631e2d
   languageName: node
   linkType: hard
 
@@ -674,6 +739,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/types@npm:0.12.77":
+  version: 0.12.77
+  resolution: "@keplr-wallet/types@npm:0.12.77"
+  dependencies:
+    long: ^4.0.0
+  checksum: bfab5c8be9ba9379373c75746c6fc6c78df775e63709be61d26379259817d58c684bb01fd6ccb705460c4d5c4277d9da18055898df547e73bb146151ebfcf3da
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/unit@npm:0.12.42":
   version: 0.12.42
   resolution: "@keplr-wallet/unit@npm:0.12.42"
@@ -682,6 +756,17 @@ __metadata:
     big-integer: ^1.6.48
     utility-types: ^3.10.0
   checksum: 362999e601dbb67c781f4048b11f59810b2778823241904e57e71a3e4d58fe1cc76df12d88212facf5152373a9bfd02be7f941637f34ba39517a13511571e314
+  languageName: node
+  linkType: hard
+
+"@keplr-wallet/unit@npm:0.12.77":
+  version: 0.12.77
+  resolution: "@keplr-wallet/unit@npm:0.12.77"
+  dependencies:
+    "@keplr-wallet/types": 0.12.77
+    big-integer: ^1.6.48
+    utility-types: ^3.10.0
+  checksum: a8b319c671d5be81ccdd3b6a13e2d014c067904f45b6b6b1005e4c8e7dccba7e4b829153ba0281aed71fa61e52b9a902cff42909d7191c0f301f907e78b95f0c
   languageName: node
   linkType: hard
 
@@ -2368,7 +2453,7 @@ __metadata:
   dependencies:
     "@keplr-wallet/chain-validator": 0.12.42
     "@keplr-wallet/common": 0.12.42
-    "@keplr-wallet/cosmos": 0.12.42
+    "@keplr-wallet/cosmos": 0.12.77
     "@keplr-wallet/types": 0.12.42
     "@pulumi/aws": ^6.8.0
     "@pulumi/pulumi": ^3.93.0
@@ -6316,7 +6401,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -6329,7 +6414,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.7.1#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -6342,7 +6427,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.3#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -7292,17 +7377,17 @@ __metadata:
 
 "typescript@patch:typescript@^4.8.4#~builtin<compat/typescript>":
   version: 4.8.4
-  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=1a91c8"
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c981e82b77a5acdcc4e69af9c56cdecf5b934a87a08e7b52120596701e389a878b8e3f860e73ffb287bf649cc47a8c741262ce058148f71de4cdd88bb9c75153
+  checksum: 301459fc3eb3b1a38fe91bf96d98eb55da88a9cb17b4ef80b4d105d620f4d547ba776cc27b44cc2ef58b66eda23fe0a74142feb5e79a6fb99f54fc018a696afa
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@~3.8.3#~builtin<compat/typescript>":
   version: 3.8.3
-  resolution: "typescript@patch:typescript@npm%3A3.8.3#~builtin<compat/typescript>::version=3.8.3&hash=c44097"
+  resolution: "typescript@patch:typescript@npm%3A3.8.3#~builtin<compat/typescript>::version=3.8.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
